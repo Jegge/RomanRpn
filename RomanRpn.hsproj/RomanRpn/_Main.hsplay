@@ -1,0 +1,24 @@
+-- Haskell Playground 1.0
+
+
+
+eval "2 3 +" 
+
+
+read "III" :: Roman
+
+
+
+
+eval "III V +" :: Roman
+
+eval' "III V +"
+
+
+eval' "X VI /"
+
+
+a = read "X" :: Roman 
+b = read "V" :: Roman
+
+a `div` b
